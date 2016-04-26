@@ -1,63 +1,50 @@
-﻿body {
+body {
     text-align: center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-#map
-{
-    position:absolute;
+#map {
+    position: absolute;
     left: 0px;
     top: 0px;
 }
-#sprite
-{
-    position:absolute;
+#sprite {
+    position: absolute;
     top: 160px;
     left: 180px;
 }
-#one
-{
-    background-color:#88B47F;
-    width: 700px ;
-    float:left;
-    text-align:left;
-    padding-left:3em;
-    position:absolute;
-    width:652px;
-    height:60px;
+#one {
+    background-color: #88B47F;
+    width: 700px;
+    float: left;
+    text-align: left;
+    padding-left: 3em;
+    position: absolute;
+    width: 652px;
+    height: 60px;
     top: 0px;
 }
-#two
-{
-    background-color:#FDCEC6;
-    position:relative;
-    width:700px;
-    height:540px;
-    top:50px;
+#two {
+    background-color: #FDCEC6;
+    position: relative;
+    width: 700px;
+    height: 540px;
+    top: 50px;
 }
-#three
-{
-     background-color:#BDB76B;
-     position:absolute;
-     top:550px;
-     width:700px;
-     height:50px;
-     font-weight:bold;
-      
-    
+#three {
+    background-color: #BDB76B;
+    position: absolute;
+    top: 550px;
+    width: 700px;
+    height: 50px;
+    font-weight: bold;
 }
-
-#text
-{  
-    float:right;
-    padding:15px;
+#text {
+    float: right;
+    padding: 15px;
 }
-
-button
-{
-    margin:1px;
+button {
+    margin: 1px;
 }
-
-p{
-    margin-top:2px;
+p {
+    margin-top: 2px;
 }
