@@ -1,43 +1,37 @@
-﻿<!DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title> CSS Color Chooser</title>
-    <link rel="stylesheet" href="css/style.css" />
-</head>
-
-<body>
-    <div id="wrapper">
-
-        <h2> CSS Color Selector</h2>
-        <p> Choose a number between 0 and 255!</p>
-
-        <!-- text for the colors-->
-        <p class="colores"> red</p>
-        <p class="colores"> green</p>
-        <p class="colores"> blue</p>
-        <br />
-        <br />
-        <br />
-        <!--text boxes for the colors-->
-        <input type="number" id="red" class="colors" min="0" max="255" value="0">
-        <input type="number" id="green" class="colors" min="0" max="255"  value="0">
-        <input type="number" id="blue" class="colors" min="0" max="255"  value="0">
-
-        <br />
-        <br />
-        <!--buttons-->
-        <button id="color">Select a Color</button>
-        <button id="clear"> Clear selection</button>
-        <br /><br />
-        <!-- where the color shows up-->
-        <div id="selection">
-        </div>
-        <p id="hexCode"> </p>
-        <p id="error"></p>
-
-    </div>
-    <script type="text/javascript" src="js/script.js"></script>
-</body>
+   <head>
+      <meta charset="utf-8" />
+      <title> CSS Color Chooser</title>
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <div id="wrapper">
+         <h2> CSS Color Selector</h2>
+         <p> Choose a number between 0 and 255!</p>
+         <!-- text for the colors-->
+         <p class="colores"> red</p>
+         <p class="colores"> green</p>
+         <p class="colores"> blue</p>
+         <br />
+         <br />
+         <br />
+         <!--text boxes for the colors-->
+         <input type="number" id="red" class="colors" min="0" max="255" value="0">
+         <input type="number" id="green" class="colors" min="0" max="255"  value="0">
+         <input type="number" id="blue" class="colors" min="0" max="255"  value="0">
+         <br />
+         <br />
+         <!--buttons-->
+         <button id="color">Select a Color</button>
+         <button id="clear"> Clear selection</button>
+         <br /><br />
+         <!-- where the color shows up-->
+         <div id="selection">
+         </div>
+         <p id="hexCode"> </p>
+         <p id="error"></p>
+      </div>
+      <script type="text/javascript" src="js/script.js"></script>
+   </body>
 </html>
