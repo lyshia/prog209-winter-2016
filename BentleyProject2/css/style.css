@@ -1,0 +1,77 @@
+#wrapper {
+    height: 650px;
+    width: 650px;
+    background-color: #CFB48C;
+    font-family: 'Amatic SC', cursive;
+    border-radius: 10px;
+    font-size: 24px;
+    border: 4px #1f1f14 solid;
+    border-radius: 20px;
+}
+#startScreen {
+    margin-left: 100px;
+    position: absolute;
+    text-align: center;
+}
+h1 {
+    font-size: 84px;
+}
+button {
+    background: #f2dbba;
+    background-image: -webkit-linear-gradient(top, #f2dbba, #cfae7f);
+    background-image: -moz-linear-gradient(top, #f2dbba, #cfae7f);
+    background-image: -ms-linear-gradient(top, #f2dbba, #cfae7f);
+    background-image: -o-linear-gradient(top, #f2dbba, #cfae7f);
+    background-image: linear-gradient(to bottom, #f2dbba, #cfae7f);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    text-shadow: 1px 1px 3px #5c575c;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #7d7c7d;
+    font-size: 21px;
+    border-color: ;
+    border-style: solid;
+    border-width: 1;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#playScreen {
+    text-align: center;
+    left: 75px;
+    top: 45px;
+    float: left;
+    position: absolute;
+    visibility: hidden;
+}
+#endScreen {
+    text-align: left;
+    left: 200px;
+    top: 200px;
+    float: left;
+    position: absolute;
+    visibility: hidden;
+    border: 4px #1f1f14 solid;
+    border-radius: 20px;
+    background-color: #CFB48C;
+    height: 250px;
+    width: 300px;
+}
+#stage {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    background-image: url("../img/background.png");
+}
+.cell {
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+p {
+    width: 400px;
+}

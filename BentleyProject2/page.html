@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+    <title> WasteLand Adventure!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- front page font -->
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="startScreen">
+            <h1> WasteLand Warrior! </h1>
+            <p> Greetings Wastelander. You have awoken in a strange place
+                <br> and now you must return home before things get stranger
+                <br> use the 'up' 'down' 'left' and 'right' keys to traverse the wasteland
+                <br> Be careful of lurking bandits who want to kill and loot you
+                <br> and Rakk's who want to end you!
+                <br> Here is some food and gold. use it wisely
+                <br>
+                <button id="startButton"> Let's Go! </button>
+        </div>
+
+        <div id="playScreen">
+            <div id="stage"></div>
+            <br>
+            <div id="output"></div>
+        </div>
+
+        <div id="endScreen">
+            <p id="endOutput">
+
+
+        </div>
+
+    </div>
+
+    <audio id="winner">
+        <source src="mp3/win.wav" type="audio/mpeg">
+    </audio>
+    <audio id="loser">
+        <source src="mp3/lose.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
