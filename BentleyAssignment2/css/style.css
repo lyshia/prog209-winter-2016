@@ -1,0 +1,40 @@
+﻿#wrapper {
+    height: 400px;
+    width: 400px;
+    color: white;
+    background-color: #006666;
+    text-align:center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#selection {
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    margin-left:50px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.colors {
+    width: 50px;
+    display: block;
+    margin-left: 50px;
+    float: left;
+
+}
+
+.colores {
+    width: 55px;
+    display: block;
+    margin-left: 50px;
+    float: left;
+    text-align:left;
+}
+
+button
+{
+   border-radius:5px;
+   padding: 5px;
+}
