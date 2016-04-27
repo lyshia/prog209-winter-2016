@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Flying Animal Farm Game</title>
+      <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/styles.css">
+   </head>
+   <body>
+      <div id="container">
+         <div id="StartScreen">
+            <h2> Welcome to Alien Smash! </h2>
+            <p> Your goal is to hit as many aliens as you can in 30 seconds!
+               <br> Each alien type is worth a different amount of points!
+               <br> Let's see ho many you can get!
+               <button id="startButton"> Let's get smashing! </button>
+         </div>
+         <div id="GameScreen">
+            <div class="top" id="left">
+               <h1>Alien Smash!</h1>
+            </div>
+            <div class="top" id="right">
+               Splat all the aliens!
+            </div>
+            <canvas class="fx" id="canvas" width="700" height="500">
+               <!-- Insert fallback content here -->
+            </canvas>
+            <div class="bottom" id="score">
+               Aliens Hit:
+            </div>
+            <div class="bottom" id="timeLeft">
+               Time Left:
+            </div>
+         </div>
+         <div id="EndScreen">
+            <p id="output"></p>
+            <button id="resetButton"> Try again?</button>
+         </div>
+      </div>
+      <script src="js/js.js"></script>
+   </body>
+</html>
