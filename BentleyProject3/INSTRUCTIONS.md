@@ -13,11 +13,9 @@ Here is a screenshot of a sample game screen (your version will hopefully look d
 
  
 
-	1. The monster images – or “sprites” as they are generally referred to in game technology –
-       	will appear at random times in the canvas area at random places, and move vertically or horizontally in real time.
+	1. The monster images – or “sprites” as they are generally referred to in game technology –will appear at random times in the canvas area at random places, and move vertically or horizontally in real time.
 
-	2. After 2 seconds they will disappear. If the user “zaps” a sprite by clicking on it,
-        the sprite will be replaced with a "Hit" image (e.g., explosion) which does not move and disappears after 1 second. 
+	2. After 2 seconds they will disappear. If the user “zaps” a sprite by clicking on it,the sprite will be replaced with a "Hit" image (e.g., explosion) which does not move and disappears after 1 second. 
 	Your game should support 3 different sprite images. 
 	
 	3. The game must maintain/display a running counter to keep track of the user's game score (the number of monsters zapped). 
@@ -25,12 +23,10 @@ Here is a screenshot of a sample game screen (your version will hopefully look d
 	player shouldn't get extra points for clicking on the explosion).
 
 	4. Your game must also use a countdown timer and display the current number of seconds remaining in the game.
-        When it times out, the animations should freeze and a end game message of some kind must be displayed.
-        You can set the countdown timer to any number, but you'll probably want to keep it down to around 30 seconds.
+	When it times out, the animations should freeze and a end game message of some kind must be displayed. You can set the countdown timer to any number, but you'll probably want to keep it down to around 30 seconds.
 
 	5. The image above shows a scary font for effect, but you are not required to use a custom font. 
-	You should however, provide some basic game instruction (one short sentence will do it)
-        and label your game stats (timer and game score) appropriately.
+	You should however, provide some basic game instruction (one short sentence will do it) and label your game stats (timer and game score) appropriately.
 	While canvas can display text, the text for your game must be displayed using CSS 
         which provides much better flexibility.
 
