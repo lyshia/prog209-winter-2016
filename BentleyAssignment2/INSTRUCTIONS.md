@@ -12,7 +12,7 @@ This is for each color channel (Red, Green, Blue).
 It will  modify the CSS to display a new color in a div area. 
 Below is a screenshot of a working example:
 
-![exampel image] (img/example.jpg)
+![teacher example image] (img/example.jpg)
 
 Your submission does not need to match the example exactly, but you may use the example as a guide.
 
